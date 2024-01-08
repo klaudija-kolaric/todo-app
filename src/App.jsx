@@ -1,4 +1,4 @@
-import { Title, VisibilityToolbar, AddTodoForm } from './components';
+import { Title, VisibilityToolbar, AddTodoForm, TodoList } from './components';
 
 export default function App() {
   return (
@@ -6,6 +6,7 @@ export default function App() {
       <Title text='My tasks' />
       <VisibilityToolbar />
       <AddTodoForm />
+      <TodoList />
     </div>
   );
 }
