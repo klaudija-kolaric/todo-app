@@ -1,1 +1,30 @@
-rafcp
+.todo-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.todo-item__wrapper {
+  align-items: center;
+  display: flex;
+  gap: 1;
+}
+
+.todo-item__delete {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item__delete:hover {
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.todo-item-done {
+  text-decoration: line-through;
+}
